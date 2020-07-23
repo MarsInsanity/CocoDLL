@@ -45,7 +45,7 @@ WebsiteLink.Size = UDim2.new(1, 0, 0.35944438, 0)
 WebsiteLink.Font = Enum.Font.GothamBold
 WebsiteLink.Text = "https://wearedevs.net/d/Coco Z"
 WebsiteLink.TextColor3 = Color3.fromRGB(255, 255, 255)
-WebsiteLink.TextSize = 20.000
+WebsiteLink.TextSize = 50.000
 WebsiteLink.TextStrokeColor3 = Color3.fromRGB(34, 34, 34)
 WebsiteLink.TextWrapped = true
 
@@ -60,7 +60,7 @@ InjectionLabel.Size = UDim2.new(1, 0, 0.640555501, 0)
 InjectionLabel.Font = Enum.Font.GothamBold
 InjectionLabel.Text = "Coco Z Needs To Update, please re-install"
 InjectionLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
-InjectionLabel.TextSize = 50.000
+InjectionLabel.TextSize = 100.000
 InjectionLabel.TextStrokeColor3 = Color3.fromRGB(34, 34, 34)
 InjectionLabel.TextWrapped = true
 
