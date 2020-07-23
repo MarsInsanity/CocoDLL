@@ -58,9 +58,9 @@ InjectionLabel.BorderSizePixel = 0
 InjectionLabel.Position = UDim2.new(1, 0, 0, 0)
 InjectionLabel.Size = UDim2.new(1, 0, 0.640555501, 0)
 InjectionLabel.Font = Enum.Font.GothamBold
-InjectionLabel.Text = "Coco Z Needs To Update"
+InjectionLabel.Text = "Coco Z Needs To Update, please re-install"
 InjectionLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
-InjectionLabel.TextSize = 25.000
+InjectionLabel.TextSize = 15.000
 InjectionLabel.TextStrokeColor3 = Color3.fromRGB(34, 34, 34)
 InjectionLabel.TextWrapped = true
 
@@ -114,10 +114,5 @@ local function XPOIK_fake_script()
 	wait(0.5)
 	script.Parent.InjectScreen.InjectionLabel:TweenPosition(UDim2.new(0,0,0,0), "Out", "Quad", 0.5, true)
 	script.Parent.InjectScreen.WebsiteLink:TweenPosition(UDim2.new(0,0,0.641,0), "Out", "Quad", 0.5, true)
-	wait(10)
-	script.Parent.InjectScreen.InjectionLabel:TweenPosition(UDim2.new(-1,0,0,0), "Out", "Quad", 0.5, true)
-	script.Parent.InjectScreen.WebsiteLink:TweenPosition(UDim2.new(1,0,0.641,0), "Out", "Quad", 0.5, true)
-	wait(0.5)
-	script.Parent.InjectScreen:TweenSize(UDim2.new(0,0,0,0), "Out", "Quad", 0.5, true)
 end
 coroutine.wrap(XPOIK_fake_script)()
