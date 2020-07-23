@@ -1,0 +1,123 @@
+local CocoInjection = Instance.new("ScreenGui")
+local InjectScreen = Instance.new("ImageLabel")
+local Logo = Instance.new("ImageLabel")
+local WebsiteLink = Instance.new("TextLabel")
+local InjectionLabel = Instance.new("TextLabel")
+
+CocoInjection.Name = "CocoInjection"
+CocoInjection.Parent = game.CoreGui
+
+InjectScreen.Name = "InjectScreen"
+InjectScreen.Parent = CocoInjection
+InjectScreen.Active = true
+InjectScreen.AnchorPoint = Vector2.new(0.5, 0.5)
+InjectScreen.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+InjectScreen.BackgroundTransparency = 1.000
+InjectScreen.BorderColor3 = Color3.fromRGB(34, 34, 34)
+InjectScreen.ClipsDescendants = true
+InjectScreen.Position = UDim2.new(0.5, 0, 0.5, 0)
+InjectScreen.Image = "rbxassetid://3570695787"
+InjectScreen.ImageColor3 = Color3.fromRGB(34, 34, 34)
+InjectScreen.ScaleType = Enum.ScaleType.Slice
+InjectScreen.SliceCenter = Rect.new(100, 100, 100, 100)
+InjectScreen.SliceScale = 0.120
+
+Logo.Name = "Logo"
+Logo.Parent = InjectScreen
+Logo.AnchorPoint = Vector2.new(0.5, 0.5)
+Logo.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+Logo.BackgroundTransparency = 1.000
+Logo.BorderColor3 = Color3.fromRGB(34, 34, 34)
+Logo.BorderSizePixel = 0
+Logo.Position = UDim2.new(0.4966667, 0, 0.4966667, 0)
+Logo.Size = UDim2.new(0.686666667, 0, 0.686666667, 0)
+Logo.Image = "http://www.roblox.com/asset/?id=5114898244"
+Logo.ImageTransparency = 1.000
+
+WebsiteLink.Name = "WebsiteLink"
+WebsiteLink.Parent = InjectScreen
+WebsiteLink.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+WebsiteLink.BackgroundTransparency = 1.000
+WebsiteLink.BorderColor3 = Color3.fromRGB(34, 34, 34)
+WebsiteLink.BorderSizePixel = 0
+WebsiteLink.Position = UDim2.new(-1, 0, 0.640999973, 0)
+WebsiteLink.Size = UDim2.new(1, 0, 0.35944438, 0)
+WebsiteLink.Font = Enum.Font.GothamBold
+WebsiteLink.Text = "https://wearedevs.net/d/Coco Z"
+WebsiteLink.TextColor3 = Color3.fromRGB(255, 255, 255)
+WebsiteLink.TextSize = 15.000
+WebsiteLink.TextStrokeColor3 = Color3.fromRGB(34, 34, 34)
+WebsiteLink.TextWrapped = true
+
+InjectionLabel.Name = "InjectionLabel"
+InjectionLabel.Parent = InjectScreen
+InjectionLabel.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+InjectionLabel.BackgroundTransparency = 1.000
+InjectionLabel.BorderColor3 = Color3.fromRGB(34, 34, 34)
+InjectionLabel.BorderSizePixel = 0
+InjectionLabel.Position = UDim2.new(1, 0, 0, 0)
+InjectionLabel.Size = UDim2.new(1, 0, 0.640555501, 0)
+InjectionLabel.Font = Enum.Font.GothamBold
+InjectionLabel.Text = "Coco Z Needs To Update"
+InjectionLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+InjectionLabel.TextSize = 25.000
+InjectionLabel.TextStrokeColor3 = Color3.fromRGB(34, 34, 34)
+InjectionLabel.TextWrapped = true
+
+local function XPOIK_fake_script()
+	local script = Instance.new('LocalScript', CocoInjection)
+
+        wait(1)
+	script.Parent.InjectScreen:TweenSize(UDim2.new(0,150,0,150), "Out", "Quad", 0.5, true)
+	wait(0.5)
+	script.Parent.InjectScreen.Logo.ImageTransparency = 0.9
+	wait(0.05)
+	script.Parent.InjectScreen.Logo.ImageTransparency = 0.8
+	wait(0.05)
+	script.Parent.InjectScreen.Logo.ImageTransparency = 0.7
+	wait(0.05)
+	script.Parent.InjectScreen.Logo.ImageTransparency = 0.6
+	wait(0.05)
+	script.Parent.InjectScreen.Logo.ImageTransparency = 0.5
+	wait(0.05)
+	script.Parent.InjectScreen.Logo.ImageTransparency = 0.4
+	wait(0.05)
+	script.Parent.InjectScreen.Logo.ImageTransparency = 0.3
+	wait(0.05)
+	script.Parent.InjectScreen.Logo.ImageTransparency = 0.2
+	wait(0.05)
+	script.Parent.InjectScreen.Logo.ImageTransparency = 0.1
+	wait(0.05)
+	script.Parent.InjectScreen.Logo.ImageTransparency = 0.0
+	wait(0.5)
+	script.Parent.InjectScreen.Logo.ImageTransparency = 0.1
+	wait(0.05)
+	script.Parent.InjectScreen.Logo.ImageTransparency = 0.2
+	wait(0.05)
+	script.Parent.InjectScreen.Logo.ImageTransparency = 0.3
+	wait(0.05)
+	script.Parent.InjectScreen.Logo.ImageTransparency = 0.4
+	wait(0.05)
+	script.Parent.InjectScreen.Logo.ImageTransparency = 0.5
+	wait(0.05)
+	script.Parent.InjectScreen.Logo.ImageTransparency = 0.6
+	wait(0.05)
+	script.Parent.InjectScreen.Logo.ImageTransparency = 0.7
+	wait(0.05)
+	script.Parent.InjectScreen.Logo.ImageTransparency = 0.8
+	wait(0.05)
+	script.Parent.InjectScreen.Logo.ImageTransparency = 0.9
+	wait(0.05)
+	script.Parent.InjectScreen.Logo.ImageTransparency = 1
+	wait(0.2)
+	script.Parent.InjectScreen:TweenSize(UDim2.new(0,293,0,72), "Out", "Quad", 0.5, true)
+	wait(0.5)
+	script.Parent.InjectScreen.InjectionLabel:TweenPosition(UDim2.new(0,0,0,0), "Out", "Quad", 0.5, true)
+	script.Parent.InjectScreen.WebsiteLink:TweenPosition(UDim2.new(0,0,0.641,0), "Out", "Quad", 0.5, true)
+	wait(10)
+	script.Parent.InjectScreen.InjectionLabel:TweenPosition(UDim2.new(-1,0,0,0), "Out", "Quad", 0.5, true)
+	script.Parent.InjectScreen.WebsiteLink:TweenPosition(UDim2.new(1,0,0.641,0), "Out", "Quad", 0.5, true)
+	wait(0.5)
+	script.Parent.InjectScreen:TweenSize(UDim2.new(0,0,0,0), "Out", "Quad", 0.5, true)
+end
+coroutine.wrap(XPOIK_fake_script)()
